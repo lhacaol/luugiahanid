@@ -1,0 +1,651 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Môt Sans JP', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 200px;
+/*	background: lightgrey;*/
+	padding:20px 0;
+	position: absolute;
+}
+.container{
+/*	background: red;*/
+	width: 1200px;
+	margin: 0 auto ;
+	display:flex;
+}
+.logo{
+	width: 10%;
+	overflow: hidden;
+}
+.logo a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+.logo a:hover{
+	color: olivedrab;
+}
+.nav{
+	width: 80%;
+}
+.nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+	height: 100%;
+}
+.nav ul li{
+	margin: 0 24px;
+}
+.nav ul li a{
+	
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.nav ul li a:hover{
+	color: olivedrab;
+	
+}
+.icon{
+	width: 10%;
+}
+.banner{
+	width: 100%;
+	height:100vh;
+/*	overflow: hidden;*/
+}
+.banner img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-box{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    text-align:center;
+	text-transform: uppercase;
+	color: white;
+	background: rgba(0,0,0,0,55);
+	padding: 35px 50px 50px;
+}
+.text-box h3{
+	font-weight: 400;
+	letter-spacing: 6px;
+	word-spacing: 10px;
+}
+.text-box h1{
+	font-size: 72px;
+	letter-spacing: 20px;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.text-box p{
+	font-size: 15px;
+	letter-spacing: 5px;
+	margin-bottom: 60px;
+}
+.text-box a{
+	color:white;
+	text-align:none;
+	padding: 20px 40px;
+	font-size: 14px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid white;
+}
+.text-box a:hover{
+	color:white;
+	background: olivedrab;
+}
+.body{
+	width: 100%;
+/*	height: 900px;*/
+	background: white;
+}
+.nd{
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+table{
+	margin: 0 auto;
+}
+table td{
+	padding: 0px;
+}
+input{
+	height: 40px;
+	width: 250px;
+	box-sizing: border-box;
+	}
+button{
+	width: 100%;
+	padding: 10px;
+/*	border-radius: 10px;*/
+	border: none;
+	background: olivedrab;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+.tieude{
+	width: 100%;
+	height: 50px;
+/*	background: pink;*/
+}
+.tieude h1{
+	font-size: 25px;
+	color: olivedrab;
+	text-align: center;
+}
+.khuyenmai{
+	width: 100%;
+	height: 300px;
+	background:black;
+	position: absolute;
+}
+.khuyenmai img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.nen{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    text-align:center;
+/*	text-transform: uppercase;*/
+	color: white;
+	background: rgba(0,0,0,0,55);
+	padding: 35px 50px 50px;
+}
+.nen h2{
+	color: orange;
+	letter-spacing: 6px;
+}
+.nen p{
+	color: white;
+	letter-spacing: 6px;
+	
+}
+.nen h1{
+	color: orange;
+	letter-spacing: 6px;
+	background:olivedrab;
+	width: 200px;
+	text-align: center;
+	margin-left: 190px;
+}
+.tieude2{
+	width: 100%;
+	height: 50px;
+}
+.tieude2 h1{
+	font-size: 25px;
+	color: olivedrab;
+	text-align: center;
+}
+.nd2{
+	width: 500px;
+	height: 300px;
+	background: black;
+	margin-left: 118px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd2 img{
+	width: 500px;
+}
+
+.nd3{
+	width: 500px;
+	height: 300px;
+/*	background: black;*/
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd3 h1{
+	color: olivedrab;
+	font-size: 20px;
+}
+.nd3 h2{
+	color: black;
+	font-size: 15px;
+}
+.nd3 p{
+	color: grey;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.nd3 a{
+	color:olivedrab;
+	padding: 5px 20px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid olivedrab;
+	margin-left: 150px;
+}
+.nd3 a:hover{
+	color:orange;
+	background: white;
+}
+.gach{
+	width: 90%;
+	height: 1px;
+	background: olivedrab;
+	margin-top: 300px;
+	margin-left: 66px;
+}
+.nd4{
+	width: 500px;
+	height: 300px;
+	background: black;
+	margin-left: 118px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd4 img{
+	width: 500px;
+}
+
+.nd5{
+	width: 500px;
+	height: 300px;
+/*	background: black;*/
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd5 h1{
+	color: olivedrab;
+	font-size: 20px;
+}
+.nd5 h2{
+	color: black;
+	font-size: 15px;
+}
+.nd5 p{
+	color: grey;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.nd5 a{
+	color:olivedrab;
+	padding: 5px 20px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid olivedrab;
+	margin-left: 150px;
+}
+.nd5 a:hover{
+	color:orange;
+	background: white;
+}
+.gach1{
+	width: 90%;
+	height: 1px;
+	background: olivedrab;
+	margin-top: 300px;
+	margin-left: 66px;
+}
+.nd6{
+	width: 500px;
+	height: 300px;
+	background: black;
+	margin-left: 118px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd6 img{
+	width: 500px;
+}
+
+.nd7{
+	width: 500px;
+	height: 300px;
+/*	background: black;*/
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd7 h1{
+	color: olivedrab;
+	font-size: 20px;
+}
+.nd7 h2{
+	color: black;
+	font-size: 15px;
+}
+.nd7 p{
+	color: grey;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.nd7 a{
+	color:olivedrab;
+	padding: 5px 20px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid olivedrab;
+	margin-left: 150px;
+}
+.nd7 a:hover{
+	color:orange;
+	background: white;
+}
+.gach2{
+	width: 90%;
+	height: 1px;
+	background: olivedrab;
+	margin-top: 300px;
+	margin-left: 66px;
+}
+.nd8{
+	width: 500px;
+	height: 300px;
+	background: black;
+	margin-left: 118px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd8 img{
+	width: 500px;
+}
+
+.nd9{
+	width: 500px;
+	height: 300px;
+/*	background: black;*/
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd9 h1{
+	color: olivedrab;
+	font-size: 20px;
+}
+.nd9 h2{
+	color: black;
+	font-size: 15px;
+}
+.nd9 p{
+	color: grey;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.nd9 a{
+	color:olivedrab;
+	padding: 5px 20px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid olivedrab;
+	margin-left: 150px;
+}
+.nd9 a:hover{
+	color:orange;
+	background: white;
+}
+.gach3{
+	width: 90%;
+	height: 1px;
+	background: olivedrab;
+	margin-top: 300px;
+	margin-left: 66px;
+}
+.nd10{
+	width: 500px;
+	height: 300px;
+	background: black;
+	margin-left: 118px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd10 img{
+	width: 500px;
+}
+
+.nd11 {
+	width: 500px;
+	height: 300px;
+/*	background: black;*/
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+	
+}
+.nd11 h1{
+	color: olivedrab;
+	font-size: 20px;
+}
+.nd11 h2{
+	color: black;
+	font-size: 15px;
+}
+.nd11 p{
+	color: grey;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.nd11 a{
+	color:olivedrab;
+	padding: 5px 20px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid olivedrab;
+	margin-left: 150px;
+}
+.nd11 a:hover{
+	color:orange;
+	background: white;
+}
+.gach4 {
+	width: 90%;
+	height: 1px;
+	background: olivedrab;
+	margin-top: 300px;
+	margin-left: 66px;
+}
+.hop{
+/*	margin-top: 990px;*/
+width: 100%;
+	height: 20px;
+/*	background: red;*/
+	text-align: center;
+}
+.hop h1{
+	color: white;
+	font-size: 20px;
+	
+}
+.hop ul{
+	
+	list-style: none;
+}
+.hop ul li{
+	width: 100%;
+	height: 25px;
+
+}
+.hop ul li a{
+	text-decoration: none;
+	color: olivedrab;
+}
+.hop ul li a:hover{
+	color: orange;
+	
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	background: olivedrab;
+	margin-top: 2px;
+	font-family: 'Môt Sans JP', sans-serif;
+	display: flex
+}
+.cot1{
+	width: 500px;
+	height: 300px;
+/*	background: pink;*/
+	margin-left: 80px;
+	margin-right: 120px;
+}
+.cot1 h1{
+	color: white;
+	font-size: 25px;
+	
+}
+.cot1 p{
+	color: white;
+	font-size: 15px;
+}
+
+.cot2{
+	width: 200px;
+	height: 400px;
+	
+}
+.cot2 h1{
+	color: white;
+	font-size: 20px;
+	
+}
+.cot2 ul{
+	
+	list-style: none;
+}
+.cot2 ul li{
+	width: 100%;
+	height: 25px;
+
+}
+.cot2 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.cot2 ul li a:hover{
+	color: orange;
+	
+}
+
+.cot3{
+	width: 200px;
+	height: 400px;
+	
+}
+.cot3 h1{
+	color: white;
+	font-size: 20px;
+	
+}
+.cot3 ul{
+	
+	list-style: none;
+}
+.cot3 ul li{
+	width: 100%;
+	height: 25px;
+
+}
+.cot3 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.cot3 ul li a:hover{
+	color: orange;
+	
+}
+.cot4{
+	width: 200px;
+	height: 400px;
+	
+}
+.cot4 h1{
+	color: white;
+	font-size: 20px;
+	
+}
+.cot4 ul{
+	
+	list-style: none;
+}
+.cot4 ul li{
+	width: 100%;
+	height: 25px;
+
+}
+.cot4 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.cot4 ul li a:hover{
+	color: orange;
+	
+}
+.dangky{
+	width: 100%;
+	height: 500px;
+}
+.dangky h1{
+	color: olivedrab;
+	font-size: 25px;
+margin-left: 620px;
+}
+.dangky table{
+	margin: 0 auto;
+}
+.dangky table td{
+	padding: 0px;
+}
+.dangky input{
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 8px;
+	outline: none;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.dangky input[type="checkbox"]{
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.ckinput p{
+	float: left;
+	margin-left: 5px;
+	margin-top: -1px;
+}
+.dangky button{
+	width: 100%;
+	padding: 16px;
+/*	border-radius: 10px;*/
+	border: none;
+	background:  olivedrab;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
